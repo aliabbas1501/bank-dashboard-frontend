@@ -9,13 +9,13 @@ A multi-module banking admin dashboard built with Vue.js. Covers real-time trans
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### Transactions
-![Transactions](screenshots/transactions.png)
+![Transactions](transactions.png)
 
 ### Loans
-![Loans](screenshots/loans.png)
+![Loans](loans.png)
 
 ---
 
@@ -51,8 +51,8 @@ A multi-module banking admin dashboard built with Vue.js. Covers real-time trans
 
 ```bash
 # Clone the repository
-git clone https://github.com/aliabbas1501/bank-dashboard.git
-cd bank-dashboard
+git clone https://github.com/aliabbas1501/bank-dashboard-frontend.git
+cd bank-dashboard-frontend
 
 # Install dependencies
 npm install
@@ -62,19 +62,6 @@ npm run dev
 ```
 
 App will run at `http://localhost:5173`
-
----
-
-## Project Structure
-
-```
-bank-dashboard/
-├── src/
-│   ├── components/       # Reusable Vue components
-│   ├── views/            # Page-level views (Dashboard, Transactions, Loans, Borrowers, Products)
-│   ├── router/           # Vue Router config
-│   └── App.vue
-```
 
 ---
 
