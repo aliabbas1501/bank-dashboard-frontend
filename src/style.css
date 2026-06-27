@@ -295,3 +295,175 @@ code {
     border-right-color: var(--border);
   }
 }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .dashboard-page,
+  .transactions-page,
+  .loans-page,
+  .borrowers-page,
+  .products-page {
+    padding: 16px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .table-card {
+    padding: 12px;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 650px;
+  }
+
+  th,
+  td {
+    padding: 12px 10px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pagination button {
+    width: 100%;
+  }
+
+  .stats-grid,
+  .content-grid,
+  .tables-grid,
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    padding: 16px;
+  }
+
+  .stat-card {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-page,
+  .transactions-page,
+  .loans-page,
+  .borrowers-page,
+  .products-page {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .table-card {
+    border-radius: 12px;
+  }
+
+  table {
+    min-width: 600px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .dashboard-page,
+  .transactions-page,
+  .loans-page,
+  .borrowers-page,
+  .products-page {
+    padding: 16px !important;
+  }
+
+  .page-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .title {
+    font-size: 24px !important;
+  }
+
+  .subtitle {
+    font-size: 14px !important;
+  }
+
+  .search {
+    width: 100% !important;
+  }
+
+  .stats-grid,
+  .content-grid,
+  .tables-grid,
+  .overview-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .table-card,
+  .table-wrapper {
+    width: 100% !important;
+    overflow-x: auto !important;
+  }
+
+  table {
+    min-width: 650px !important;
+  }
+
+  th,
+  td {
+    white-space: nowrap !important;
+    font-size: 13px !important;
+  }
+
+  .pagination {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .pagination button {
+    width: 100% !important;
+  }
+}
